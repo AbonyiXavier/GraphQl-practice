@@ -1,0 +1,20 @@
+{
+  "name": "customers",
+  "version": "1.0.0",
+  "description": "A simple GraphQl Server",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
+  },
+  "author": "AbonyiXavier",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "json-server": "^0.16.2",
+    "nodemon": "^2.0.6"
+  }
+}
